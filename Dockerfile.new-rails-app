@@ -1,0 +1,14 @@
+ARG RUBY_VERION=latest
+FROM ruby:${RUBY_VERION}
+ARG RAILS_VERSION
+
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
+RUN apt-get update && \
+    apt-get install postgresql-client nano nodejs -y && \
+    npm install --global yarn
+
+RUN gem install rails -v $RAILS_VERSION || gem install rails
+
+WORKDIR /var
+
+CMD ["rails", "serve", "-b", "0.0.0.0"]
