@@ -1,5 +1,5 @@
 # Docker Utils
-This is a repository for simple Dockerfiles I use in my personal projects.
+A collection of Dockerfiles I use for workflow automation.
 
 # Dockerfile.new-rails-app
 Create rails applications without having to install Ruby's Runtime.
