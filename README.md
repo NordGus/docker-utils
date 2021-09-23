@@ -6,7 +6,7 @@ Create rails applications without having to install Ruby's Runtime.
 ## Usage
 1. Build image:
     ```bash
-    docker build -t my-app - < Dockerfile.new-rails-app
+    docker build -t my-app - < /path/to/docker-utils/Dockerfile.new-rails-app
     ```
     Ruby version and Rails version are optional build args:
     ```bash
