@@ -8,7 +8,8 @@
                 "golang.Go",
                 "davidanson.vscode-markdownlint",
                 "shardulm94.trailing-spaces",
-                "IBM.output-colorizer"
+                "IBM.output-colorizer",
+                "rangav.vscode-thunder-client"
             ],
             "settings": {
                 "go.useLanguageServer": true
