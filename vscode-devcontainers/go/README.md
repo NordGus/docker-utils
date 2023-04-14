@@ -30,7 +30,7 @@ Finally, I have mapped my SSH keys so that I can interact with **git** from insi
 
 Here comes the Dockerfile:
 
-```docker
+```Dockerfile
 ARG GO_VERSION=1.13
 ARG ALPINE_VERSION=3.10
 
